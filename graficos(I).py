@@ -23,13 +23,17 @@ miLabel.config(font=("Comic Sans MS",18)) #tipo de letra y tamaño
 miLabel.config(bd=10) #borde del label
 miLabel.config(relief="groove") #tipo de borde
 miLabel.config(cursor="pirate") #cambia el cursor
-miLabel.place(x=190,y=100) #para que se coloque en una posicion especifica
+miLabel.place(x=190,y=150) #para que se coloque en una posicion especifica
 
 cuadroTexto = Entry(miLabel) #creamos un cuadro de texto, hay que meterlo en el frame
 cuadroTexto.pack() #para que este empaquetado
 cuadroTexto.config(justify="center") #para que el texto este centrado
 cuadroTexto.config(state="normal") #para que no se pueda escribir
 cuadroTexto.config(cursor="arrow") #cambia el cursor
+cuadroTexto.place(x=100,y=100) #para que se coloque en una posicion especifica
+
+nombreLabel = Label(miFrame, text="Nombre:")
+nombreLabel.place(x=80,y=80)
 
 
 raiz.mainloop() #para que pueda estar en ejecucion
