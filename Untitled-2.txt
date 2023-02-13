@@ -1,0 +1,35 @@
+from habitacion import*
+import tkinter as tk
+import tkinter.ttk as ttk
+root = tk.Tk()
+root.title("Roomba")
+
+# Primera variable, fija
+fixed_value = Habitacion
+
+# Segunda variable, modificable por el usuario a través de un cuadro de texto
+text_value = tk.IntVar(area)
+
+# Tercera variable, dependiente de las dos anteriores
+result_value = tk.DoubleVar(tiempo)
+
+# Crea un cuadro de texto asociado a la segunda variable
+textbox = tk.Entry(root, textvariable=text_value)
+textbox.pack()
+
+# Crea una etiqueta que muestra el resultado de la tercera variable
+result_label = tk.Label(root, textvariable=result_value)
+result_label.pack()
+
+# Función para calcular la tercera variable
+def calculate_result():
+    value1 = fixed_value
+    value2 = int(text_value.get())
+    result = value1 + value2
+    result_value.set(str(result))
+
+# Crea un botón que llama a la función calculate_result
+button = tk.Button(root, text="+", command=calculate_result)
+button.pack()
+
+root.mainloop()
