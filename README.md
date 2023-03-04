@@ -1,5 +1,11 @@
 # Primera tarea empleando tkinter
 
+El link al repositorio es el siguiente: https://github.com/carlospuigserver/Tarea1-interfazGrafica.git
+
+Miembros del grupo:
+- Carlos Puigserver
+- Germán Llorente
+
 Este código utiliza la biblioteca Tkinter para crear una interfaz gráfica de usuario (GUI) en la que se puede calcular el tiempo de limpieza de una habitación después de haberse ingresado un mueble. La habitación se representa gráficamente en un canvas(aplicación de tkinter) y se dibuja un mueble en ella con la altura y el ancho ingresados por el usuario. La velocidad de limpieza es una constante predeterminada elegida por nosotros al igual que las medidas de la habitación, que constan en el enunciado del ejercicio, y el cálculo del tiempo de limpieza se realiza en función del área que queda por limpiar al haber establecido un mueble. Cuando se hace clic en el botón "Calcular tiempo", se muestra el tiempo de limpieza en una etiqueta y se dibuja la habitación y el mueble en el canvas.
 
 
