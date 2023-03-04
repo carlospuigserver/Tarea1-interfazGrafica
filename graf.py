@@ -5,7 +5,7 @@ root.title("Tiempo de Limpieza")
 
 # Variables
 Habitacion = 500 * 630 # cm^2
-velocidad = 800 # cm^2/min
+velocidad = 1800 # cm^2/min
 
 # Variables de entrada
 altura = tk.StringVar()
