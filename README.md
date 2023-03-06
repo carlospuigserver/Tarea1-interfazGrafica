@@ -90,3 +90,16 @@ def dibujar_habitacion_y_mueble(p, h):
 root.mainloop()
 
 ```
+
+
+<img width="904" alt="rumba1" src="https://user-images.githubusercontent.com/91721643/223159011-eb832731-7e05-4d39-aaa5-2f16cc643dec.png">
+
+
+Aquí vemos como se nos presenta la interfaz.
+
+
+
+
+<img width="952" alt="rumba2" src="https://user-images.githubusercontent.com/91721643/223159170-4b580a32-ceb1-458a-b5f0-56d8b7d3b461.png">
+
+Y en esta imagen, vemos que al introducir las medidas de la habitación, con las medidas predeterminadas del mueble, nos muestra en azul el espacio por limpiar con el robot, y nos indica el tiempo que tardará en hacerlo.
